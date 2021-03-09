@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Information</title>
+    <link rel="styleSheet" href="./css/style.css">
+</head>
+<body>
+    <header >
+        <h4>ASAC</h4>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+    </header>
+    <main>
+        <fieldset id="formPlace">
+            <form id="studentF">
+                <label for="studentE" id="studentE">Student Email</label>
+                <input name="studentE" id="studentE" type="email">
+                <label for="studentNo" id="studentNo" >Student Mobile Number</label>
+                <input name="studentNo" id="studentNo" type="number">
+                <label for="studentT" id="studentT">Tuition</label>
+                <select name="studentT" id="studentT">
+                    <option value="100JD">100JD</option>
+                    <option value="500JD">500JD</option>
+                    <option value="1000JD">1000JD</option>
+                </select>
+
+            </form>
+        </fieldset>
+           <div id="tableDiv">
+        <table id="studentTable">
+
+        </table>
+         </div>
+    </main>
+    <footer></footer>
+    <script src="./app.js"></script>
+</body>
+</html>
